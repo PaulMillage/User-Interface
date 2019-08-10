@@ -29,10 +29,11 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	width: 1200px;
 }
 ol, ul {
 	list-style: none;
+	width:80%;
 }
 blockquote, q {
 	quotes: none;
@@ -64,3 +65,38 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navbar {
+	overflow: hidden;
+	background-color: white;
+	position: fixed; 
+	top: 0;
+	width: 100%;
+	display: inline-block;
+	word-spacing: 30px;
+  }
+
+	.container{
+		display: inline-block;
+		position: center;
+  }
+
+  .deets{
+	  font-size: 60px;
+  }
+
+  .deets2{
+	  font-size: 30px;
+  }
+
+  .inno{
+	  display:inline;
+  }
+
+  .img-right {
+	width: 20%;
+}
+
+  .middle-img{
+	  position: center;
+  }
